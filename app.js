@@ -73,7 +73,7 @@ function addTask(e) {
     // Create i element
     const i = document.createElement('i');
     // Add class
-    i.className = 'fas fa-times text-danger mr-auto delete-item';
+    i.className = 'fas fa-times text-danger ml-auto delete-item';
     // Append the i to li
     li.appendChild(i);
 
